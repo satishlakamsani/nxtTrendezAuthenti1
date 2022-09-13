@@ -1,0 +1,124 @@
+/* Write your CSS code here */
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  min-height: 100vh;
+  padding: 20px;
+}
+.login-website-logo-mobile-image {
+  width: 250px;
+  max-width: 660px;
+}
+@media screen and(min-width:768px) {
+  .login-website-logo-mobile-image {
+    display: none;
+  }
+}
+.login-image {
+  width: 250px;
+  max-width: 600px;
+  margin-top: 35px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 35px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px rgba(126, 133, 142, 0.16);
+  padding: 45px;
+}
+.input-label {
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #64748b;
+  margin-top: 15px;
+}
+.login-website-logo-desktop-image {
+  max-width: 400px;
+  margin-bottom: 10px;
+  align-self: center;
+  min-width: 300px;
+}
+@media screen and (max-width: 767px) {
+  .login-website-logo-desktop-image {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .login-form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 900px;
+  }
+
+  .login-website-logo-mobile-image {
+    display: none;
+  }
+  .input-filed {
+    font-size: 18px;
+    font-family: 'Roboto';
+    border: 1px solid #64748b;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .login-website-logo-mobile-image {
+    display: none;
+  }
+  .login-image {
+    width: 60%;
+    max-width: 600px;
+    margin-right: 85px;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 950px;
+    height: 350px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 16px rgba(126, 133, 142, 0.16);
+    padding: 65px;
+  }
+  .input-label {
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #64748b;
+    margin-top: 25px;
+  }
+  .input-filed {
+    font-size: 18px;
+    width: 300px;
+  }
+  .error-msg {
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #ff0b37;
+    margin-top: 0px;
+  }
+}
+.login-button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 15px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
